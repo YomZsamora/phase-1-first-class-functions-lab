@@ -16,3 +16,6 @@ let createFareMultiplier = multiplier => {
 		return multiplier * fare;
 	}
 }
+
+// Declared a variable with const and assign a function returned by createFareMultiplier() to it. fareDoubler() is a function that doubles fare
+const fareDoubler = createFareMultiplier(2);
