@@ -22,3 +22,9 @@ const fareDoubler = createFareMultiplier(2);
 
 // fareTripler()is a function that triples fare
 const fareTripler = createFareMultiplier(3);
+
+/* This function takes two arguments, an array of drivers and either the returnFirstTwoDrivers() or returnLastTwoDrivers() function. 
+Based on these two arguments, selectDifferentDrivers() will return either the first two drivers or the last two drivers. */
+let selectDifferentDrivers = (arrayOfDrivers, selectedDrivers) => {
+	return selectedDrivers(arrayOfDrivers)
+}
